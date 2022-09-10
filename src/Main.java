@@ -7,7 +7,6 @@ public class Main {
         list.AddAtTail("Cosa3");
         list.addAtFront("Cosa3");
         System.out.println(list.getSize());
-
         ListIterator Iterator = list.GetIterator();
         while(Iterator.HasNext()){
             System.out.println(Iterator.Next());
@@ -15,7 +14,6 @@ public class Main {
         list.Remove(1);
         list.SetAt(1,"Remplazo");
         list.RemoveAllWithValue("Cosa3");
-
         Iterator = list.GetIterator();
         while(Iterator.HasNext()){
             System.out.println(Iterator.Next());
@@ -26,7 +24,6 @@ public class Main {
         list.AddAtTail("Cosa2");
         list.AddAtTail("Cosa3");
         list.addAtFront("Cosa3");
-
         Iterator = list.GetIterator();
         while(Iterator.HasNext()){
             System.out.println(Iterator.Next());

@@ -1,4 +1,3 @@
-
 public class List {
     private Node head,tails;
     private int size;
